@@ -12,35 +12,32 @@
   * openTSDB에서 그래프 그릴 때 사용된다.
 
  1) 설치
-    * gnuplot 홈페이지에서 다운
-        
-    > tar -xzvf gnuplot-x.x.x.tar.gz
+    > gnuplot 홈페이지에서 다운
     
-    > cd gnuplot-x.x.x
-    
-    > ./configure
-    
-    > make
-    
-    > make check
-    
-    > make install
-    
+    >
+    # tar -xzvf gnuplot-x.x.x.tar.gz
+    # cd gnuplot-x.x.x
+    # ./configure
+    # make
+    # make check
+    # make install
         
 2. Hadoop
   
   1) 설치
-
+    >
     # cd /usr/local
     # Hadoop 홈페이지에서 다운로드
     # wget http://mirror.navercorp.com/apache/hadoop/common/hadoop-2.6.4/hadoop-2.6.4.tar.gz
     # tar -xzvf hadoop-2.6.4
     # mkdir hadoop
     # mv hadoop-2.6.4/* hadoop/
+    
 
   2) 실행
-    
+    >
     # cd /usr/local/hadoop/sbin
+    
     # ./start-all.sh
     
   3) web ui 확인
