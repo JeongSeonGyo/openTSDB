@@ -66,54 +66,54 @@
     		export JAVA_HOME = /usr
     		export HBASE_MANAGES_ZK=true
     
-    		# vim hbase-site.xml
-		    <configuration>
-		
-			<property>
-				<name>hbase.rootdir</name>
-				<value>hdfs://localhost:9000/hbase</value>
-			</property>
-		
-			<property>
-				<name>hbase.zookeeper.quorum</name>
-				<value>localhost</value>
-			</property>
-		
-		
-			<property> <name>hbase.zookeeper.property.dataDir</name> 
-				<value>/home/hadoop/zookeeper</value> 
-			</property>
-		
-			<property> 
-				<name>hbase.cluster.distributed</name>
-				 <value>true</value> 
-			</property>
-		
-			<property>
-		                <name>hbase.master.info.port</name>
-		                <value>60010</value>
-		    	</property>
-			 <property>
-		            <name>hbase.master.info.bindAddress</name>
-		            <value>localhost</value>
-			 </property>
-			 <property>
-		            <name>dfs.support.append</name>
-		            <value>true</value>
-			 </property>
-			  <property>
-		            <name>dfs.datanode.max.xcievers</name>
-		            <value>4096</value>
-			 </property>
-			  <property>
-		            <name>hbase.zookeeper.property.clientPort</name>
-		            <value>2181</value>
-			  </property>
-			  <property>
-		            <name>hbase.regionserver.info.bindAddress</name>
-		            <value>localhost</value>
-			 </property>
-		    </configuration>
+    	# vim hbase-site.xml
+	    <configuration>
+	
+		<property>
+			<name>hbase.rootdir</name>
+			<value>hdfs://localhost:9000/hbase</value>
+		</property>
+	
+		<property>
+			<name>hbase.zookeeper.quorum</name>
+			<value>localhost</value>
+		</property>
+	
+	
+		<property> <name>hbase.zookeeper.property.dataDir</name> 
+			<value>/home/hadoop/zookeeper</value> 
+		</property>
+	
+		<property> 
+			<name>hbase.cluster.distributed</name>
+			 <value>true</value> 
+		</property>
+	
+		<property>
+	                <name>hbase.master.info.port</name>
+	                <value>60010</value>
+	    	</property>
+		 <property>
+	            <name>hbase.master.info.bindAddress</name>
+	            <value>localhost</value>
+		 </property>
+		 <property>
+	            <name>dfs.support.append</name>
+	            <value>true</value>
+		 </property>
+		  <property>
+	            <name>dfs.datanode.max.xcievers</name>
+	            <value>4096</value>
+		 </property>
+		  <property>
+	            <name>hbase.zookeeper.property.clientPort</name>
+	            <value>2181</value>
+		  </property>
+		  <property>
+	            <name>hbase.regionserver.info.bindAddress</name>
+	            <value>localhost</value>
+		 </property>
+	    </configuration>
 
   3) hbase 실행
   
