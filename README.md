@@ -36,8 +36,9 @@
 
   2) 실행
   
- 	# cd /usr/local/hadoop/sbin
-    	# ./start-all.sh
+	# cd /usr/local/hadoop/sbin
+	# ./start-all.sh
+    	
     
   3) web ui 확인
    	> http://localhost:50070
@@ -152,10 +153,10 @@
     - tsd.core.auto_create_metrics : true = 레코드의 metric이 데이터베이스에 존재하지 않을 때, 자동으로 metric 추가
     - tsd.storage.fix_duplicates : true = 같은 시간에 중복된 데이터가 존재하는 경우 마지막 입력된 데이터만 쓰임
     
-    	# vim opentsdb.conf
-    	tsd.network.port = 4242
-    	tsd.http.staticroot = /usr/share/opentsdb/static/
-    	tsd.http.cachedir = /usr/share/opentsdb/static/
+	    	# vim opentsdb.conf
+	    	tsd.network.port = 4242
+	    	tsd.http.staticroot = /usr/share/opentsdb/static/
+	    	tsd.http.cachedir = /usr/share/opentsdb/static/
    
     * logback.xml 파일을 수정하는 경우도 있지만 root 권한으로 openTSDB를 실행할 것이기 때문에 수정하지 않음
     
