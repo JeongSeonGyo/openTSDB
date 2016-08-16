@@ -42,7 +42,9 @@
     	
     
   3) web ui 확인
+  
    	> http://localhost:50070
+
     
 3. HBase
 
@@ -133,6 +135,8 @@
     
   5) web ui 확인
     	> http://localhost:16010
+
+
 
 4. openTSDB 
 
