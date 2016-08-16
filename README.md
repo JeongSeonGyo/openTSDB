@@ -14,45 +14,43 @@
  1) 설치
     > gnuplot 홈페이지에서 다운
     
-    $ tar -xzvf gnuplot-x.x.x.tar.gz
-    $ cd gnuplot-x.x.x
-    $ ./configure
-    $ make
-    $ make check
-    $ make install
+    	$ tar -xzvf gnuplot-x.x.x.tar.gz
+    	$ cd gnuplot-x.x.x
+    	$ ./configure
+		$ make
+    	$ make check
+		$ make install
         
 2. Hadoop
   
   1) 설치
     
     	$ cd /usr/local
-	$ Hadoop 홈페이지에서 다운로드
-	$ wget http://mirror.navercorp.com/apache/hadoop/common/hadoop-2.6.4/hadoop-2.6.4.tar.gz
-	$ tar -xzvf hadoop-2.6.4
-	$ sudo mkdir hadoop
-	$ sudo mv hadoop-2.6.4/* hadoop/
+		$ Hadoop 홈페이지에서 다운로드
+		$ wget http://mirror.navercorp.com/apache/hadoop/common/hadoop-2.6.4/hadoop-2.6.4.tar.gz
+		$ tar -xzvf hadoop-2.6.4
+		$ sudo mkdir hadoop
+		$ sudo mv hadoop-2.6.4/* hadoop/
 	
    
 
   2) 실행
-    >
-    # cd /usr/local/hadoop/sbin
-    
-    # ./start-all.sh
+    		# cd /usr/local/hadoop/sbin
+    		# ./start-all.sh
     
   3) web ui 확인
-   > http://localhost:50070
+   		http://localhost:50070
     
 3. HBase
 
   1) 설치
   
-    # cd /usr/local/
-    Hbase 홈페이지에서 0.98.20 릴리즈 파일을 다운로드 한다.
-    # wget http://apache.mirror.cdnetworks.com/hbase/0.98.20/hbase-0.98.20-hadoop2-bin.tar.gz
-    # tar -xzvf hbase-0.98.20-hadoop2-gin.tar.gz
-    # mkdir hbase
-    # mv hbase-0.98.29/* hbase/
+	# cd /usr/local/
+    	Hbase 홈페이지에서 0.98.20 릴리즈 파일을 다운로드 한다.
+    	# wget http://apache.mirror.cdnetworks.com/hbase/0.98.20/hbase-0.98.20-hadoop2-bin.tar.gz
+	# tar -xzvf hbase-0.98.20-hadoop2-gin.tar.gz
+    	# mkdir hbase
+	# mv hbase-0.98.29/* hbase/
 
 
   2) 속성 변경
