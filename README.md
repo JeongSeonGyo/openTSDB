@@ -134,6 +134,7 @@
     
     
   5) web ui 확인
+  
     	> http://localhost:16010
 
 
