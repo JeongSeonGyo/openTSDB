@@ -14,17 +14,12 @@
  1) 설치
     > gnuplot 홈페이지에서 다운
     
-	 > $ tar -xzvf gnuplot-x.x.x.tar.gz
-    
-	 > $ cd gnuplot-x.x.x
-    
-	 > $ ./configure
-    
-	 > $ make
-    
-	 > $ make check
-    
-	 > $ make install
+    $ tar -xzvf gnuplot-x.x.x.tar.gz
+    $ cd gnuplot-x.x.x
+    $ ./configure
+    $ make
+    $ make check
+    $ make install
         
 2. Hadoop
   
