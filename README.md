@@ -14,24 +14,28 @@
  1) 설치
     > gnuplot 홈페이지에서 다운
     
-    >
-    # tar -xzvf gnuplot-x.x.x.tar.gz
-    # cd gnuplot-x.x.x
-    # ./configure
-    # make
-    # make check
-    # make install
+	 > $ tar -xzvf gnuplot-x.x.x.tar.gz
+    
+	 > $ cd gnuplot-x.x.x
+    
+	 > $ ./configure
+    
+	 > $ make
+    
+	 > $ make check
+    
+	 > $ make install
         
 2. Hadoop
   
   1) 설치
-    >
-    # cd /usr/local
-    # Hadoop 홈페이지에서 다운로드
-    # wget http://mirror.navercorp.com/apache/hadoop/common/hadoop-2.6.4/hadoop-2.6.4.tar.gz
-    # tar -xzvf hadoop-2.6.4
-    # mkdir hadoop
-    # mv hadoop-2.6.4/* hadoop/
+    
+    	>$ cd /usr/local
+	>$ Hadoop 홈페이지에서 다운로드
+	>$ wget http://mirror.navercorp.com/apache/hadoop/common/hadoop-2.6.4/hadoop-2.6.4.tar.gz
+	>$ tar -xzvf hadoop-2.6.4
+    	>$ sudo mkdir hadoop
+	>$ sudo mv hadoop-2.6.4/* hadoop/
     
 
   2) 실행
