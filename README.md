@@ -1,4 +1,4 @@
-# openTSDB
+#openTSDB
 
 설치 환경
  - Ubuntu 14.04, 32-bit
@@ -8,7 +8,7 @@
  - Hbase 0.98.20
  - GnuPlot
 
-1. GnuPlot
+##1. GnuPlot
   * openTSDB에서 그래프 그릴 때 사용된다.
 
  1) 설치
@@ -21,7 +21,7 @@
     	$ make check
 		$ make install
         
-2. Hadoop
+##2. Hadoop
   
   1) 설치
     
@@ -46,7 +46,7 @@
    	> http://localhost:50070
 
     
-3. HBase
+##3. HBase
 
   1) 설치
   
@@ -139,7 +139,7 @@
 
 
 
-4. openTSDB 
+##4. openTSDB 
 
   1) 설치
   
