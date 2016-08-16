@@ -11,7 +11,7 @@
 ##1. GnuPlot
   * openTSDB에서 그래프 그릴 때 사용된다.
 
- 1) 설치
+ ###1) 설치
     > gnuplot 홈페이지에서 다운
     
     	$ tar -xzvf gnuplot-x.x.x.tar.gz
@@ -23,7 +23,7 @@
         
 ##2. Hadoop
   
-  1) 설치
+  ###1) 설치
     
     	$ cd /usr/local
 		$ Hadoop 홈페이지에서 다운로드
@@ -34,21 +34,21 @@
 	
    
 
-  2) 실행
+  ###2) 실행
   
       
 		# cd /usr/local/hadoop/sbin
 		# ./start-all.sh
     	
     
-  3) web ui 확인
+  ###3) web ui 확인
   
    	> http://localhost:50070
 
     
 ##3. HBase
 
-  1) 설치
+  ###1) 설치
   
 		# cd /usr/local/
 		Hbase 홈페이지에서 0.98.20 릴리즈 파일을 다운로드 한다.
@@ -58,7 +58,7 @@
 		# mv hbase-0.98.29/* hbase/
 
 
-  2) 속성 변경
+  ###2) 속성 변경
   
     - JAVA_HOME : java 디렉토리
     - HBASE_MANAGES_ZK : hbase가 내장 zookeeper를 사용할 지 여부 (true : 내장 zookeeper 사용)
@@ -117,7 +117,7 @@
 			 </property>
 		    	 </configuration>
 
-  3) hbase 실행
+  ###3) hbase 실행
   
       
     	# cd /usr/local/hbase/bin
@@ -128,12 +128,12 @@
     	>hbase(main):001:0> 
     
     
-  4) hbase 종료
+  ###4) hbase 종료
   
     	# ./stop-hbase.sh
     
     
-  5) web ui 확인
+  ###5) web ui 확인
   
     	> http://localhost:16010
 
@@ -141,7 +141,7 @@
 
 ##4. openTSDB 
 
-  1) 설치
+  ###1) 설치
   
     	# cd /usr/local/
     	# git clone git://github.com/OpenTSDB/opentsdb.git
@@ -149,7 +149,7 @@
     	# ./build.sh
     
 
- 2) 속성 변경
+ ###2) 속성 변경
  
  
     	# cd /usr/local/opentsdb/src/ or /etc/
@@ -167,7 +167,7 @@
     * logback.xml 파일을 수정하는 경우도 있지만 root 권한으로 openTSDB를 실행할 것이기 때문에 수정하지 않음
     
     
-  3) 데이터베이스 테이블 구성 (최초로 한 번만 해준다)
+  ###3) 데이터베이스 테이블 구성 (최초로 한 번만 해준다)
   
   
 	    # env COMPRESSION=NONE HBASE_HOME=path/to/hbase-0.94.X ./src/create_table.sh
@@ -184,7 +184,7 @@
 	    가 생성되면 됨
     
     
-  4) openTSDB 실행
+  ###4) openTSDB 실행
   
     > Hadoop 실행 -> hbase 실행 -> openTSDB 실행
     
