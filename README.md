@@ -37,8 +37,8 @@
   2) 실행
   
       
-	# cd /usr/local/hadoop/sbin
-	# ./start-all.sh
+		# cd /usr/local/hadoop/sbin
+		# ./start-all.sh
     	
     
   3) web ui 확인
